@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(171, 161, 161, 0.496);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    position: relative;
+}
+
+#german {
+    margin: 30px;
+    width: 300px;
+    position: absolute;
+    left: 38%;
+    top: 60px;
+    box-shadow: 3px -3px 5px 1px yellow;
+}
+
+#german:hover {
+    box-shadow: 5px -3px 7px 3px green;
+}
+
+#g1 {
+    height: 50px;
+    background-color: black;
+}
+
+#g2 {
+    height: 50px;
+    background-color: red;
+}
+
+#g3 {
+    height: 50px;
+    background-color: yellow;
+}
+
+#german:hover #g1 {
+    background-color: red;
+}
+
+#german:hover #g2 {
+    background-color: white;
+}
+
+#german:hover #g3 {
+    background-color: green;
+}
+
+#french {
+    margin: 30px;
+    height: 150px;
+    box-shadow: 3px -3px 5px 1px red;
+    display: flex;
+    position: absolute;
+    left: 38%;
+    top: 300px;
+}
+
+#french:hover {
+    box-shadow: 5px -3px 7px 3px orange;
+}
+
+
+#f1 {
+    width: 100px;
+    background-color: blue;
+}
+
+#f2 {
+    width: 100px;
+    background-color: white;
+}
+
+#f3 {
+    width: 100px;
+    background-color: red;
+}
+
+#french:hover #f1 {
+    background-color: green;
+}
+
+#french:hover #f3 {
+    background-color: orange;
+}
+
+
