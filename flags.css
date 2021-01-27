@@ -7,10 +7,16 @@
 header {
     height: 40px;
     padding: 10px;
-    background-color: rgba(171, 161, 161, 0.496);
+    background-color:black;
+    color: white;
     text-align: center;
     position: sticky;
     top: 0;
+}
+
+header h1::selection {
+    background-color: antiquewhite;
+    color: green;
 }
 
 main {
@@ -23,7 +29,6 @@ main {
     position: absolute;
     left: 38%;
     top: 60px;
-    box-shadow: 3px -3px 5px 1px yellow;
 }
 
 #german:hover {
@@ -60,7 +65,6 @@ main {
 #french {
     margin: 30px;
     height: 150px;
-    box-shadow: 3px -3px 5px 1px red;
     display: flex;
     position: absolute;
     left: 38%;
